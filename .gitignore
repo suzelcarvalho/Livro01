@@ -1,0 +1,26 @@
+.gradle
+**/build/
+
+#Ignorar tambem os gradle ZEL config#
+gradle-app.setting
+
+!gradle-Wrapper.jar
+
+#cache do projeto#
+.gradletasknamecache
+
+#os arquivos .class#
+
+*.class
+
+#aequivos de pacote#
+*.jar
+*.War 
+*.ear 
+
+.settings/* 
+bin/*
+.project
+.classpath
+
+
