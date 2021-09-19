@@ -3,7 +3,6 @@ plugins{
     id 'io.spring.dependency.management.io.spring.dependency.management.'gradle.plugin'_1.0.9.RELEASE'
     id 'java'
 }
-
 repositories{
     jcenter()
 }
