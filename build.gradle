@@ -1,19 +1,16 @@
-{
 plugins{
-    id 'org.springframework.boot' version '2.2.0.RELEASE'
-    id 'io.spring.dependency.management.io.(spring).dependency.management.'gradle.plugin}'_1.0.9.RELEASE'
+    id 'org.springframework.boot' version '2.3.0.RELEASE'
+    id 'io.spring.dependency.management' version '1.0.9.RELEASE'
     id 'java'
 }
 
 repositories{
     jcenter()
 }
-
-dependencies{
+dependecies{
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
-    implementation 'mysql:mysql-connector-java'
+    implementation 'mysql:mysql-cnnector-java'
     implementation 'javax.servlet:jstl:1.2'
-    implementation 'org.apache.tomcat.embed-jasper'
-    
+    implementation 'org.apache.tomcat.embed:tomcat-embet-jasper'
 }
