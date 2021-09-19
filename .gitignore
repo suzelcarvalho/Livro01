@@ -1,7 +1,7 @@
 .gradle
 **/build/
 
-#Ignorar tambem os gradle ZEL config#
+#Ignorar tambem os gradle config#
 gradle-app.setting
 
 !gradle-Wrapper.jar
