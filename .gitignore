@@ -2,7 +2,7 @@
 **/build/
 **/suzel/
 
-#Ignorar tambem os ZEL config#
+#Ignorar tambem os GUI config#
 gradle-app.setting
 
 !gradle-Wrapper.jar
