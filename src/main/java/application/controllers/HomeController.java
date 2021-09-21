@@ -1,10 +1,10 @@
 package application.controllers;
 
-import org.springframework.stereotype.controllers;
+import org.springframework.stereotype.Controllers;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-@controllers
+@Controllers
 public class HomeControllers {
     @Requestmappping(method=RequetMethod.GET)
     public String index(){
