@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class HomeController {
     @RequestMappping(method=RequetMethod.GET)
     public String index(){
-        return "home/index.jsp"
+        return "home/index.jsp";
     }
 
 }
